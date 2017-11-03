@@ -1,0 +1,596 @@
+body{
+	margin:auto;
+	padding: 0px;
+	background-color:#ffffff;
+	font-size:14px; 
+}
+
+#container{
+	margin:auto;
+	padding: 0px;
+	text-align: center;
+	overflow:hidden;
+}
+#store_nav_big{
+	margin:auto;
+	width:100%;
+	height:270px;
+	background-color: #fffff;
+}
+
+#mid_find{
+	margin:auto;
+	width:100%;
+	height:80px;
+	background-color: #ffffff;
+}
+
+#in_mid_find{
+	margin:auto;
+	width:950px;
+	height:80px;
+	background-color: #ffffff;
+}
+#mid_up{
+	float:left;
+	width:100%;
+	height:52px;
+}
+#mid_up_left{
+	width:220px;
+	float:left;
+	margin-left:-10px; 
+}
+#mid_up_right_search{
+	float:right;
+	background: #f40 none repeat scroll 0 0;
+    height: 23px;
+    margin-top: 12px;
+    padding: 3px;
+    width: 360px;
+}
+#search_panel{
+	position: relative;
+}
+#search_button{
+	float: right;
+}
+.form_class{
+	margin:0;
+	padding: 0;
+}
+.btn_search_class{
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 23px;
+    outline: 0 none;
+    padding-left: 2px;
+    width: 74px;
+   /*  */
+}
+#search_text_field{
+	width: 282px;
+}
+#category_div_search{
+	float:left;
+	width:50px;
+}
+#search_div_right{
+	float:left;
+	width:230px;
+}
+#none_good{
+	width:200px;
+	height:50px;
+	margin:auto;
+}
+.input_class{
+	background-color: #fff;
+    border: 0 none;
+    color: #000;
+    font-size: 100%;
+    height: 24px;
+    line-height: 18px;
+    overflow-y: visible;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#mid_down{
+	height:26px;
+	width:950px;
+}
+.left_span{
+	float: left;
+	color: #888a80;
+}
+.right_span{
+	float: right;
+}
+
+#store_info_div{
+	width:100%;
+	height: 150px;
+}
+#store_name_div{
+	width:950px;
+	margin:auto;
+	height:120px;
+}
+#store_logo_div{
+	width:360px;
+	height:120px;
+	margin:auto;
+}
+#store_name_div_up{
+	height: 95px;
+	width:100%;
+}
+#store_name_div_down{
+	height: 25px;
+	width:100%;
+}
+#store_nav_down_2{
+	width:100%;
+	height:30px;
+}
+#store_nav_down_2_mid{
+	width:950px;
+	margin:auto;
+	height:30px;
+}
+#store_nav{
+	margin:auto;
+	width:100%;
+	height:35px;
+	background-color: #f5f5f5;
+	
+}
+#store_nav_div{
+	margin:auto;
+	text-align:center;
+	width:950px;
+	height:35px;
+	
+}
+#store_div{
+	position:absolute;
+	width:60px;
+	/* 让该块脱离文件流 就是可以浮起来 不影响其他块
+	使用绝对定位的nav层前面的或者后面的层会认为这个层并不存在，也就是在z方向上，它是相对独立出来的，丝毫不影响到其它z方向的层。 */
+}
+ul,li{
+	list-style:outside none none;
+}
+#nav_ul_2 li{
+	float:left;
+}
+ul,li,a{
+	color:#888a80;
+	font-size:15px;
+	text-decoration:none;
+}
+ul,li,a:hover{
+	color:#fb7728;
+	font-size:15px;
+}
+#nav_ul_1{
+	float: left;
+	margin-top:8px;
+}
+#nav_ul_2{
+	float: right;
+	margin-top:8px;
+}
+#nav_ul_2 li{
+	width:80px;
+}
+.li_down ul,li{
+	padding: 0px;
+	background-color: #f9f9f9;
+}
+.li_hover:hover{
+	background-color: #dfdfdf;
+}
+.li_hover{
+	display:none;
+}
+#nav_ul_2 li:hover li{
+	display: block;
+	position: absolute; 
+}
+
+.store_nav_down a {
+	display: block;
+}
+
+#store_nav_down {
+	display: none;
+	background-color: #ffffff;
+	position:relative; top:1px;
+}
+/* #store_div:hover #store_nav_down{
+	display: block; 
+} */
+.li_down:hover #store_nav_down{
+	display: block; 
+}
+#store_nav_down a:hover{
+	background-color: #dfdfdf;
+}
+
+.store_ul_nav_left{
+	float:left;
+	margin-top:4px;
+}
+
+
+#again_store_nav_big{
+	width:100%;
+	height:30px;
+	background-color: #000000;
+/* 	overflow:hidden; */
+}	
+
+#again_store_nav_big_mid{
+	width:950px;
+	margin:auto;
+}
+.ul_1{
+	float:left;
+}
+.ul_2{
+	float:right;
+}
+.li_1_again{
+	width:80px;
+	float:left;
+	position:relative;
+}
+.li_2_again{
+	width:80px;
+	float:right;
+	margin-top:-9px;
+	position:relative;
+}
+
+
+#again_hidden_2{
+	display: none;
+}
+#again_hidden_3{
+	display: none;
+	
+}
+#again_store_catogry{
+	background-color: #000000;
+	position: absolute;top:0;right:0;
+	
+}
+#again_store_catogry a:hover{
+	color:#fb7728;
+	background-color:#242424;
+}
+/* #li_1_again_catogray{
+	position: relative;
+} */
+#li_1_again_catogray:hover #again_hidden_3{
+	display: block; 
+	
+}
+.li_2_again:hover #again_hidden_2{
+	display: block; 
+}
+
+/* .li_1_again:hover #again_hidden_2{
+	display: block; 
+} */
+#again_store_to_keeper{
+	background-color: #000000;
+	position: absolute;top:0;right:0;
+	margin-left:15px;
+	z-index:999;
+}
+#again_store_to_keeper a{
+	color:#ffffff;
+}
+#again_store_to_keeper a:hover {
+	color:#fb7728;
+}
+.ul_1{
+	margin-top:5px;
+}
+.li_1_again{
+	background-color:#000000;
+	position:relative;
+}
+.li_1_again a{
+	color:#ffffff;
+}
+
+/* 店铺添加商品的css样式 */
+#add_store_big{
+	width:100%;
+	height:30px;
+	margin-top:30px;
+	/* margin:auto; */
+}
+
+#add_store_in{
+	width:950px;
+	margin:auto;
+}
+#add_store_in_in{
+	width:600px;
+	margin:auto;
+}
+#add_store_in_left{
+	width:170px;
+	float:left;
+}
+#add_store_in_in_2{
+	width:100%;
+	height: 500px;
+}
+#add_store_in_left_2{
+	width:200px;
+	height:100px;
+	float:left;
+}
+#add_store_in_right{
+	width:200px;
+	float:left;
+	margin-top:4px;
+}
+.th_wight{
+	width:50px;
+}
+.add_button {
+	padding: 0 20px;
+	text-align: center;
+	
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+
+	-webkit-transition: all 0.10s ease;
+	-moz-transition: all 0.10s ease;
+	-o-transition: all 0.10s ease;
+	-ms-transition: all 0.10s ease;
+	transition: all 0.10s ease;
+	background-color: #fc8c49;
+	color:#ffffff;
+}
+
+
+/*添加食品页面的样式*/
+/* #add_food_big{
+	width:100%;
+	background-color: #f5f5f5;
+	margin-top:10px;
+} */
+.add_good_big{
+	width:100%;
+	background-color: #f7f7f7;
+	margin-top:10px;
+}
+/* #add_food_in{
+	width:950px;
+	margin-top:10px;
+	background-color: #f0f0f0;
+	height:400px;
+	margin:auto;
+} */
+.add_good_in{
+	width:950px;
+	margin-top:10px;
+	background-color: #f5f5f5;
+	/* height:400px; */
+	margin:auto;
+}
+/* #add_food_in_up{
+	width:100%;
+	height:30px;
+	margin:auto;
+} */
+
+.add_good_in_up{
+	width:950px;
+	height:30px;
+	margin:auto;
+}
+#div_font_class{
+	margin-top:10px;
+	margin-left:-150px;
+	float:left;
+}
+/* #add_food_in_down{
+	width:100%;
+	height:400px;
+	margin:auto;
+} */
+.add_good_in_down{
+	width:100%;
+	/* height:500px; */
+	margin:auto;
+}
+
+/*店铺展示css*/
+#show_goods_div_big{
+	width:100%;
+	margin-top: 10px;
+}
+#show_goods_div{
+	width:1000px;
+	/* height:500px; */
+	margin:auto;
+}
+#nogoods{
+	width:100px;
+	height:50px;
+	margin:auto;
+}
+#nogoodsfont{
+	width:100px;
+	height:50px;
+	margin:auto;
+	margin-top:20px;
+}
+#show_goods_div_in_up{
+	width:1000px;
+	height:30px;
+	margin:auto;
+	overflow:hidden;
+}
+.show_goods_div_in{
+	width:225px;
+	height:340px;
+	float:left;
+	margin-top: 15px;
+	margin-left:15px;
+	border:1px solid #f5f5f5;
+	/* margin-left:100px; */
+}
+.show_goods_div_in:hover{
+	border:#f40 solid 1px; 
+}
+.price_font{
+	font-family:arial;
+	color:#ff4400;
+}
+
+.title{
+	float:left;
+}
+.clear{
+	clear:both;
+}
+.title_up{
+	width:950px;
+	height: 10px;
+}
+/*店铺商品具体展现*/
+.good_img{
+	width:220px;
+	height: 250px;
+	margin: auto;
+}
+.good_descrition{
+	width:220px;
+	height: 50px;
+	margin: auto;
+}
+.good_price_big{
+	width:220px;
+	height: 40px;
+	margin: auto;
+}
+.good_price{
+	width:60px;
+	height: 40px;
+	float:left;
+}
+.good_totalnum{
+	width:70px;
+	height:40px;
+	float:left;
+}
+.totalnum{
+	color:#9b9b9b;
+}
+.good_manage{
+	width:70px;
+	height: 40px;
+	float:right;
+}
+.good_delete{
+	width:35px;
+	height: 40px;
+	float:left;
+}
+.good_modify{
+	width:35px;
+	height: 40px;
+	float:right;
+}
+#box{
+	float:left;
+	width:660px;
+	height:400px;
+	position:relative;
+	margin:auto;        
+}
+#tab{
+	width:500px;
+	height:40px;
+	/* margin:0 auto; */
+	float:left;
+	/* margin-top:40px; */
+}
+
+#tab li{
+	/* float:left; */
+	width:100px;
+	height:26px;
+}
+#ul_haha{
+	float:left;
+}
+
+#hide div{
+      width:950px;
+      height:300px;
+      position:absolute;
+      left:140px;
+      top:42px;
+      border:1px solid #dddddd;
+      font-size:12px;
+      line-height:350px;
+      text-align:center;   
+}
+/* #hide .hd1{
+	display:block;
+} */
+.order_button{
+	background-color: white;
+    border-bottom: medium none;
+    color: #ff621e;
+    font-size: 16px;
+    width: 100px;
+}
+#order_big{
+	width:100%;
+	height:500px;
+}
+#order_big_in{
+	width:950px;
+	height:500px;
+	margin:auto;
+	margin-top:10px;
+}
+#order_tab{
+	width:350px;
+	float:left;
+}
+#order_tab .list{ 
+    border-left:1px solid #dddddd;
+    border-right:1px solid #dddddd;
+   /*  position:relative; */
+    float:left;
+    z-index:1;
+}
+#form_up_order{
+	width:100%;
+	height: 50px;
+}
+#order_result{
+	width:100%;
+	height: 300px;
+}
+#order_result table tr td{
+	text-align:center;
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>shop</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>login_frameCtrlservlet</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.web.client.login_frameCtrlservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Partial_servelet</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.web.client.Partial_servelet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FuzzySelect_servlet</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.web.client.FuzzySelect_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>index_servlet</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.web.client.index_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Food_Show_servlet</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.web.client.Food_Show_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Type_Show_servlet</servlet-name>
+    <servlet-class>cn.edu.zhku.jsj.web.client.Type_Show_servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>login_frameCtrlservlet</servlet-name>
+    <url-pattern>/servlet/login_frameCtrlservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Partial_servelet</servlet-name>
+    <url-pattern>/servlet/Partial_servelet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FuzzySelect_servlet</servlet-name>
+    <url-pattern>/servlet/FuzzySelect_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>index_servlet</servlet-name>
+    <url-pattern>/servlet/index_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Food_Show_servlet</servlet-name>
+    <url-pattern>/servlet/Food_Show_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Type_Show_servlet</servlet-name>
+    <url-pattern>/servlet/Type_Show_servlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>servlet/index_servlet</welcome-file>
+  </welcome-file-list>
+</web-app>
